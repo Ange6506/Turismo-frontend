@@ -1,0 +1,86 @@
+/* Header_Turismo.css */
+
+/* Estilo del encabezado */
+.header {
+    background-color: #ff6f00; /* Naranja */
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+    position: relative;
+    width: 100vw;
+}
+  
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+  
+.main-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0 0 10px;
+}
+  
+.tagline {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+  
+/* Estilo para la sección de usuario */
+.user-info {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+  
+.greeting {
+    font-size: 2rem; /* Aumento el tamaño de la fuente */
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #ffffff; /* Color blanco para un mejor contraste */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4); /* Agrego sombra al texto */
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+/* Efecto hover para el saludo */
+.greeting:hover {
+    color: #ff8f1c; /* Cambia el color cuando el usuario pasa el mouse */
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6); /* Sombra más intensa en hover */
+}
+
+/* Estilo del botón de cerrar sesión */
+.logout-button {
+    background-color: #ffffff;
+    color: #ff6f00; /* Naranja */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+  
+.logout-button:hover {
+    background-color: #ff8f1c; /* Color ligeramente más oscuro */
+}
+
+/* Adaptación responsiva */
+@media (max-width: 768px) {
+    .main-title {
+        font-size: 2rem;
+    }
+  
+    .tagline {
+        font-size: 1rem;
+    }
+  
+    .greeting {
+        font-size: 1.5rem; /* Reducir el tamaño de la fuente en pantallas pequeñas */
+    }
+  
+    .logout-button {
+        font-size: 0.9rem;
+    }
+}
