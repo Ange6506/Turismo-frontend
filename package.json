@@ -3,15 +3,11 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Ange6506.github.io/Turismo-frontend",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "start": "node server.js",
-    "lint": "eslint .",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "lint": "eslint ."
   },
   "dependencies": {
     "express": "^4.18.2",
